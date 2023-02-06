@@ -1,6 +1,6 @@
 listToSort = [3,5,1,6,8,2,1,8,1,6,9,0,6,7,4]
 
-print('- List before sort:', listToSort)
+print('- List before selection sort:', listToSort)
 
 #Selection sort
 for i in range(len(listToSort)):
@@ -16,4 +16,4 @@ for i in range(len(listToSort)):
     # Change values in the list
     listToSort[i], listToSort[lowerNumberIndex] = listToSort[lowerNumberIndex], listToSort[i]
 
-print('- List after sort:', listToSort)
+print('- List after selection sort:', listToSort)
